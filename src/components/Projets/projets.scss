@@ -1,0 +1,50 @@
+p{
+    color: white;
+}
+
+.section-projets{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    .projet-kasa{
+        display: flex;
+        gap :20px;
+        align-items: center;
+    }
+
+    .projet{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+a{
+    width: 50%;
+}
+
+img{
+    width: 50%;
+}
+
+.argentBank{
+    width: 50%;
+}
+
+.sophieBluel{
+    width: 50%;
+}
+
+img:hover{
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+.liste-projets{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+

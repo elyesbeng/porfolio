@@ -1,0 +1,78 @@
+.dropdown{
+    width: 100%;
+    button{
+        border: none;
+        background-color: linear-gradient(90deg, rgba(93,86,93,1) 0%, rgba(95,95,95,1) 44%, rgba(239,234,239,1) 59%, rgba(230,223,232,1) 100%);
+        color: rgb(38, 35, 35);
+        font-family: "Montserrat";
+        padding: 10px 20px 10px 10px;
+        border-radius: 5px 5px 5px 0px;
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+    }
+    p{
+        max-width: 55%;
+        background: var(--Gray, rgba(246, 246, 246, 0.45));
+        padding: 10px 20px 10px 10px;
+        margin: 0px;
+    }
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+}
+
+.rotate2 {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+
+.dropdown-content{
+    transition:transform 1s;
+}
+
+.collapseExpandOn{
+    height: 100%;
+    width: 50%;
+    p{
+        height: 0%;
+        visibility: visible;
+        padding: 0px 25px 25px 25px;
+        display: block;
+        
+    }
+    ul{
+        width: 50%;
+        margin: 0px;
+        padding: 0px 25px 25px 25px;
+        color: white;
+        display: block;
+    }
+    li{
+        width: 50%;
+        margin: 0px;
+    }
+}
+
+.collapseExpandOff{
+    height: 0%;
+    p{
+        height: 0%;
+        visibility: hidden; 
+        display: none;  
+    }
+    ul{
+        height: 0%;
+        visibility: hidden;
+        width: 50%;
+        margin: 0px;
+        color: white;
+        display: none;
+    }
+    li{
+        width: 50%;
+    }
+}
+
